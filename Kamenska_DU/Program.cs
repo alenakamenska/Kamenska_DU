@@ -6,7 +6,10 @@ namespace Kamenska_DU
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a;
+            Int32.TryParse(Console.ReadLine(), out a);
+            int b;
+            Int32.TryParse(Console.ReadLine(), out b);
         }
     }
 }
